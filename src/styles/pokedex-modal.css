@@ -1,0 +1,250 @@
+#modal-pokemon{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  
+  background: rgba(0, 0, 0, .5);
+}
+
+#popup-pokemon{
+  width: 100%;
+  max-width: 475px;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ----- Cabeçalho  ----- */
+
+.pokemonData {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 100px;
+  justify-content: space-between;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.pokemonData ol {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.pokemonData div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pokemonData div h1 {
+  margin: 0;
+  text-align: start;
+}
+
+.pokemonData ol li {
+  width: 80px;
+}
+
+.pokemonData p {
+  width: 20%;
+  padding-top: 40px;
+  text-align: end;
+}
+.pokemonImage {
+  width: 150px;
+  position: relative;
+  background-color: none;
+}
+
+/* ----- Detalhes do Menu  ----- */
+
+/* Parte branca onde tem todos os detalhes */
+.pokemonDetails {
+  background-color: #fff;
+  width: 100%;
+  margin-top: -20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  height: 100%;
+  font-size: 12px;
+}
+
+/* inicio: Menu */
+.menu {
+  padding: 40px 20px 5px 20px;
+  /* padding-bottom: 15px; */
+  font-size: 10px;
+  text-transform: uppercase;
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+  font-weight: 800;
+  text-align: center;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  width: 70px;
+  padding-bottom: 13px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.buttonAbout {
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  color: #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+  display: block;
+}
+
+.buttonStats {
+  background-color: #fff;
+  border-bottom: none;
+  color: #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+  display: block;
+}
+
+.buttonMoves {
+  background-color: #fff;
+  border-bottom: none;
+  color:#000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+  display: block;
+}
+
+.buttonMoves:hover{
+  padding-bottom: 0.1px;
+}
+.buttonStats:hover{
+  padding-bottom: 0.1px;
+}
+.buttonAbout:hover{
+  padding-bottom: 0.1px;
+}
+
+/* final: Menu */
+
+.pokemonInfos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 10px;
+  padding: 0px 10px;
+  text-align: start;
+  gap: 10px;
+}
+
+.pokemonInfos ol {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  padding: 0;
+  width: auto;
+}
+
+.infoTitles {
+  font-size: 12px;
+  font-weight: 350;
+  text-transform: uppercase;
+  width: auto;
+  text-align: start;
+  list-style-type: none;
+}
+
+.infoDescription {
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  list-style-type: none;
+}
+
+.copy {
+  padding: 10px;
+  
+  text-align: center;
+  font-weight: 300;
+  font-size: 9px;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.close{
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 3px 10px 5px;
+  background: rgba(255, 255, 255, 0.2);
+  
+}
+
+.close:hover{
+  filter: brightness(1.1);
+}
+
+@media all and (min-width: 475px) {
+  #modal-pokemon{
+      padding: 60px;
+  }
+
+  #popup-pokemon{
+      width: 300px;
+      position: relative;
+      border-radius: 30px;
+      margin: auto;
+      height: auto;
+  }
+  .pokemonData p{
+      padding-top: 0;
+  }
+  .pokemonDetails{
+      border-radius: 30px;
+  }
+
+ 
+}
+
+.about{
+  display: block;
+}
+
+.base-stats{
+  display: block;
+}
+
+.moves{
+  display: block;
+}
