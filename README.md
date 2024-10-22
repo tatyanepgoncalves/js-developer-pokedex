@@ -9,9 +9,9 @@
 Esse é um projeto desenvolvido de uma Pokedex durante o Bootcamp *Ri Happy - Front-end do Zero* da empresa DIO (Digital Innovation One). O projeto consiste em uma aplicação web que exibe informações sobre diferentes pokémons, permitindo aos usuários explorar suas características, tipos, habilidades e mais. Para executar o projeto, será necessário configurar um servidor HTTP local.
 
 # Funcionalidades
-Lista de Pokémons: A aplicação exibe uma lista de pokémons com suas imagens e nomes. Os pokémons são carregados a partir de uma fonte de dados externa.
+- **Lista de Pokémons** - A aplicação exibe uma lista de pokémons com suas imagens e nomes. Os pokémons são carregados a partir de uma fonte de dados externa.
 
-Load More - Carregar Mais Tipos: Ao clicar no botão "Load More", mais tipos de pokémons serão carregados e exibidos na lista. Esta funcionalidade permite aos usuários explorar diferentes tipos de pokémons.
+- **Load More** - Carregar Mais Tipos: Ao clicar no botão "Load More", mais tipos de pokémons serão carregados e exibidos na lista. Esta funcionalidade permite aos usuários explorar diferentes tipos de pokémons.
 
 # Tecnologias Utilizadas 📦
 - **HTML**: A estrutura básica da aplicação foi desenvolvida utilizando HTML.
