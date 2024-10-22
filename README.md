@@ -25,8 +25,8 @@ Load More - Carregar Mais Tipos: Ao clicar no botão "Load More", mais tipos de 
 - **Live-Server**: Para executar o projeto, será necessário um servidor HTTP local. 
 
 ## Links 🔗
-- [Link do deploy]()
-- [Link do código]()
+- [Link do deploy](https://js-developer-pokedex-dio.vercel.app/)
+- [Link do código](https://github.com/tatyanepgoncalves/js-developer-pokedex)
 
 ##  Autores 👷
 
